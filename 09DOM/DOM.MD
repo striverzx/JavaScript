@@ -37,6 +37,24 @@
     * Selecting sibling elements
    ```
 
+## Manipulating  HTML elements
+   ```
+    * createElement()
+    * appendChild()
+    * textContent
+    * innerHTML
+    * after()
+    * append()
+    * prepend()
+    * insertAdjacentHTML()
+    * replaceChild()
+    * cloneNode()
+    * removeChild()
+    * insertBefore()
+    
+   ```
+
+
 
 
 
