@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Home</li>
+    </ul>
+
+    <script>
+        const menu=document.getElementById("menu");
+        console.log(menu);
+
+        let li1=document.createElement("li");
+        li1.innerHTML="About";
+
+        let li2=document.createElement("li");
+        li2.innerHTML="Contact";
+
+        let li3=document.createElement("li");
+        li3.innerHTML="login";
+
+        let li4=document.createElement("li");
+        li4.innerHTML="search";
+
+        let li5=document.createElement("li");
+        li5.innerHTML="cart";
+
+        menu.appendChild(li1); //appends only the single elements at last
+
+        menu.append(li2,li3); //appends the multiple nodes/elemtns/childs at last
+
+        menu.prepend(li4,li5); //appends the multiple nodes/elements/childs at first of the parent node
+
+        
+        
+    </script>
+    
+</body>
+</html>

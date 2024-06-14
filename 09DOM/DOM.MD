@@ -51,7 +51,6 @@
     * cloneNode()
     * removeChild()
     * insertBefore()
-    
    ```
 
 

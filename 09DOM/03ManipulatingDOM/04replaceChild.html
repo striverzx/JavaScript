@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="menu">
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+
+    <script>
+
+        let menu=document.getElementById("menu");
+
+        //parent.replaceChild(newChild,oldChild);
+        
+        //creating the newNode
+        let newNode=document.createElement("li");
+        newNode.innerHTML="Contact";
+        
+        //obtaining the oldNode
+        let oldNode=menu.lastElementChild;
+
+        menu.replaceChild(newNode,oldNode);
+
+    </script>
+    
+</body>
+</html>
