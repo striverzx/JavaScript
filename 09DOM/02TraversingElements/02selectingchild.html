@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <p>MANIKANTA KORIMILLI 1</p>
+        <p>MANIKANTA KORIMILLI 2</p>
+        <p>MANIKANTA KORIMILLI 3</p>
+        <p>MANIKANTA KORIMILLI 4</p>
+    </div>
+
+    <script>
+        let container=document.querySelector(".container");
+        console.log(container); //prints/selects the parent node
+
+        console.log(container.firstChild); //selects the first child it will counts the empty space as an child
+
+        console.log(container.firstElementChild); //selects the first child it will don't count the empty space as child
+
+        console.log(container.lastChild); //selects the last child and counts the empey space as an child 
+
+        console.log(container.lastElementChild); //selects the last child without considering the empty childs
+
+        console.log(container.childNodes); //selects the all child nodes
+        
+    </script>
+    
+</body>
+</html>

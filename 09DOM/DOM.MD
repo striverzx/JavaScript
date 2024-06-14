@@ -30,5 +30,13 @@
    * querySelectorAll()
   ```
 
+## 4. Traversing elements
+   ```
+    * Selecting parent element
+    * Selecting child element
+    * Selecting sibling elements
+   ```
+
+
 
 
