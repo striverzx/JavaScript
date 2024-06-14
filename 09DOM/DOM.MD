@@ -37,7 +37,7 @@
     * Selecting sibling elements
    ```
 
-## Manipulating  HTML elements
+## 5. Manipulating  HTML elements
    ```
     * createElement()
     * appendChild()
@@ -51,6 +51,13 @@
     * cloneNode()
     * removeChild()
     * insertBefore()
+   ```
+## 6. Attribute Methods
+   ```
+    * getAttribute()
+    * setAttribute()
+    * hasAttribute()
+    * removeAttribute()
    ```
 
 

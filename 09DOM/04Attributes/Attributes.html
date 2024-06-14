@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+</head>
+<body>
+
+    <input type="text" id="username" placeholder="username">
+
+    <script>
+        let username=document.getElementById("username");
+        console.log(username.attributes); //it prints all the attributes that the element has
+        
+        //gets attribute values from the element
+        console.log(username.getAttribute("type"));
+        console.log(username.getAttribute("placeholder"));
+        
+        //sets the new/existing attribute to the element
+        username.setAttribute("class","user");
+        console.log(username.attributes);
+        username.setAttribute("placeholder","usernames");
+        
+
+        //checks whether the attribute exits or not and gives true/false
+        let val=username.hasAttribute("required");
+        console.log(val);
+        
+        //removes the class attribute
+        username.removeAttribute("class");
+        console.log(username.attributes);
+
+
+    </script>
+    
+</body>
+</html>
