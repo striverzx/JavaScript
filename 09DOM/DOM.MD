@@ -60,6 +60,28 @@
     * removeAttribute()
    ```
 
+## 7. Manipulating the Element's style
+   ```
+    * style property
+    * cssText
+    * getComputedStyel()
+    * className property
+    * classList property
+   ```
+
+## 8. Javascript Events
+   ```
+    * What is Event?
+    * Event Bubbling and Event Capturing
+    * Event Handler in HTML Attributes
+    * DOM Level 0 event handlers
+    * addEventListener()
+    * removeEventListener()
+    * Event Objects
+    * Different Types of Events
+
+   ```
+
 
 
 
