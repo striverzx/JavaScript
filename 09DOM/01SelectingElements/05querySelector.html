@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+        <h1 class="message">Heading one</h1>
+        <div class="container">
+            <h1 class="message">Heading two</h1>
+            <h1 class="message">Heading three</h1>
+        </div>
+    
+
+    <script>
+        const msg=document.querySelector(".message");
+        console.log(msg); //selecting the single element
+
+        const allmsg=document.querySelectorAll(".message");
+        console.log(allmsg); //selecting the all elements with h1
+
+        const ele1=document.querySelectorAll("div h1");
+        console.log(ele1); //selecting the h1 elements which are inside the div
+
+        const ele2=document.querySelectorAll("div,h1");
+        console.log(ele2); //selecting the div and h1 elements
+        
+
+
+    </script>
+    
+</body>
+</html>

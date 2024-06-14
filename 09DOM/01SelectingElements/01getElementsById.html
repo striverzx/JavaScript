@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="message">MANIKANTA KORIMILLI 1</h1>
+        <h1 id="message">MANIKANTA KORIMILLI 2</h1>
+    </div>
+
+    <script>
+        const msg=document.getElementById("message");
+        console.log(msg);
+        console.log(msg.innerHTML);
+        console.log(msg.innerText); 
+    </script>
+    <!-- 
+     1.If they are no id found it will print null
+     2.If they are multiple id's then it prints first element
+    -->
+    
+    
+</body>
+</html>

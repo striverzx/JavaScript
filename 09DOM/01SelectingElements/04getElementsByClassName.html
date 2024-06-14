@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 class="message">First Heading</h1>
+
+        <div id="container">
+            <h1 class="message">Second Heading</h1>
+            <h1 class="message">third Heading</h1>
+        </div>
+    </div>
+
+    <script>
+        //selecting all elements with the specified class name
+        let allmsg=document.getElementsByClassName("message");
+        console.log(allmsg);
+
+
+        //selecting the elements which are inside the container 
+        let cont=document.getElementById("container").getElementsByClassName("message");
+        console.log(cont);
+    </script>
+    
+</body>
+</html>

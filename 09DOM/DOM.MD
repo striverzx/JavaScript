@@ -7,9 +7,19 @@
 
 ## 2. What is nodes and type of nodes
    Everything in the DOM Tree represented in the form of nodes.
+   ```
+   <!DOCTYPE html>
+   <html> 
+        <head>
+             <title>K M K </title>
+        </head>
 
-   <img src="https://www.researchgate.net/profile/Ankit-Gangwal/publication/324247588/figure/fig1/AS:632299162968064@1527763276082/DOM-tree-for-a-sample-HTML-code.png">
-   
+        <body>
+             <p1>MANIKANTA KORIMILLI</p>
+        </body>
+   </html>
+
+   ```
 ## 3. Selecting elements using DOM
   ```
    * getElementById()
