@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="username" class="cls1 cls2">Manikanta Korimilli</h1>
+
+    <script>
+        let title=document.getElementById("username");
+       
+
+        title.classList.add("cls3","cls4"); //it adds the new classes cls3 and cls4
+        title.classList.remove("cls3"); //it removes the class cls3
+        title.classList.replace("cls4", "cls10") //it replaces the cls4 --> cls10
+        console.log(title.classList.contains("cls1")); //if class exists gives true else gives false;
+
+        console.log(title.classList);
+    </script>
+    
+</body>
+</html>
