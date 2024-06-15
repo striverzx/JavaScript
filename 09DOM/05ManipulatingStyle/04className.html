@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title" class="cls1 cls2">Manikanta Korimilli</h1>
+    <script>
+        let msg=document.getElementById("title");
+        console.log(msg.className); //gives all the classNames
+
+        msg.className="cls3"; //adds the new className to the element and overrides the exsiting classNames
+
+        console.log(msg.className);
+
+        msg.className+=" cls4"; //adds the new className without overriding the existing classes
+        console.log(msg.className);
+        
+    </script>
+    
+</body>
+</html>

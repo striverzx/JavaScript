@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getComputed()</title>
+    <style>
+        input{
+            background-color: red;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- This property used for reading the style propertys of  the internal CSS -->
+     <input type="text" placeholder="username" id="username">
+
+     <script>
+        let input=document.getElementById("username");
+
+        console.log(window.getComputedStyle(input)); //selects all styles associated with this element
+
+        console.log(window.getComputedStyle(input).backgroundColor); //slects/gives the value of backgroundColor
+
+        
+     </script>
+    
+</body>
+</html>

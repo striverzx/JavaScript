@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>cssText</title>
+</head>
+<body>
+
+    <input type="text" placeholder="username" id="username" style="background-color: red;">
+
+    <script>
+        const input=document.getElementById("username");
+
+        input.style.cssText="width:30%"; //by using this it override the padding so we have to use the concatenation operation
+
+        input.style.cssText+="background-color:green"; //concatenation operation without overriding the existence style propertys
+       
+        console.log(input.style);
+
+
+    </script>
+    
+</body>
+</html>

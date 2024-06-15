@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+</head>
+<body>
+    <input type="text" placeholder="username" id="username" style="background-color: red; outline: none;">
+
+    <script>
+        let input=document.getElementById("username");
+
+        console.log(input.style); //gives all the styles of the input box
+
+        console.log(input.style.backgroundColor); //gives the value of backgroundColor in input box
+
+        input.style.padding="10px"; //adds the padding style property to the input box without overriding
+
+        console.log(input.style);
+
+
+    </script>
+    
+</body>
+
+
+</html>
