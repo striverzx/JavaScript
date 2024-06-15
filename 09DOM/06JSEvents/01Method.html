@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button type="button" id="btn" onclick="display(event)">Click Me1</button>
+        <button type="button" id="btn2" onclick="console.log(this)">Click Me2</button>
+
+    </div>
+    <script>
+
+        function display(event){
+            console.log("button clicked"); //when button cliced this displays
+            console.log(event.type);
+            console.log(event.target); //event.target is also refers to the this  
+            console.log(this.id);
+            
+        }
+    </script>
+    
+</body>
+</html>

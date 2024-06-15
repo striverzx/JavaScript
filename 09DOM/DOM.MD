@@ -81,6 +81,11 @@
     * Different Types of Events
 
    ```
+### Event Bubbling
+   Event starts from most specific element and and flows toward the least specific element.
+
+### Event Capturing
+   Event starts from least specific element and flows toward the most specific element.
 
 
 
