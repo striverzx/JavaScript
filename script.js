@@ -1,8 +1,17 @@
-var a=10;
-console.log(a);
+{
+    var a=10;
+    
 
-function x(){
-    var b=20;
-    console.log(b);
 }
-x();
+
+{
+    var a=1;
+    
+    
+
+}
+
+{
+    console.log(a);
+
+}
