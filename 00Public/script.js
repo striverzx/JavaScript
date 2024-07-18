@@ -1,1 +1,4 @@
-console.log("I Love JS");
+setTimeout(function(){
+    console.log("Hai");
+
+},5000);
